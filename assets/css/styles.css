@@ -370,7 +370,7 @@ a.primary-button:hover {
 }
 .testimonial-container {
     display: flex;
-    
+    flex-direction: column;
     padding: 120px 0px;
    justify-items: center;
    align-items: center;
@@ -383,7 +383,7 @@ a.primary-button:hover {
     
     display: flex;
     padding: 10px;
-
+    
     
 
     
