@@ -432,17 +432,253 @@ a.primary-button:hover {
     color: var(--primary-color);
 
  }
+
+
 .image-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: ;
+    gap: 24px;
+
 
 } 
+
+
+.middle:hover .over {
+    opacity: 1;
+}
+
+.middle:hover .plus {
+    opacity: 0.3;
+}
+.middle:nth-child(8) {
+    grid-column: 2 / 4;
+    
+
+}
+
+.plus {
+    height: 340px;
+    width: 100%;
+    opacity: 1;
+    transition: .4s ease;
+    backface-visibility: hidden;
+
+    
+
+}
+.box-overlay {
+    transition: .4s ease;
+    background-color: rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+}
+
+.text {
+    border-bottom: 20px;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+}
+
+
+
+
+.text h7 { 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+
+
+}
+
+.text p {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.3;
+
+}
+
+
 
 
 
 
 /* End portofolio*/
+/* Start BLOG*/
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.blog-content {
+    display: flex;
+    padding: 30px;
+    gap: 24px;
+    margin-top: 50px;
+    justify-content: center;
+
+
+
+}
+
+.blog-1 {
+    border: 1px solid #FFE2D1;
+    border-radius: 6px;
+
+}
+.blog-desc {
+    padding: 30px;
+}
+.blog-desc h7 {
+    margin-bottom: 20px;
+    color: #6F6B80;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 16px;
+}
+.blog-desc p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--title-text-color);
+}
+.blog-desc a {
+    margin-top: 1.5rem;
+    margin-right: 20px;
+    line-height: 1.7em;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary-color);
+
+
+}
+
+
+
+
+
+/* End blog*/
+/* Start my contact*/
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-content {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    
+
+    
+
+
+}
+.form-content {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+
+    gap: 10px;
+    
+    
+
+}
+
+
+input[type="text"], 
+input[type="email"],
+input[type="tel"],
+textarea,
+select
+{
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #FFE2D1;
+    padding: 20px;
+    border-radius: 6px;
+
+    line-height: 1.7;
+}
+
+.form-content form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.form-content a {
+    cursor: pointer;
+
+
+}
+
+.contact-1 {
+    display: flex;
+    gap: 20px;
+    
+}
+.addres {
+    width: 60px;
+    height: 60px;
+    background-color: var(--light-color);
+    border-radius: 8px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    margin-left: 30px;
+
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    
+}
+.side label {
+    font-weight: 500;
+    color: var(--title-text-color);
+    font-size: 21px;
+
+
+}
+.side .info {
+    color: var(--text-normal-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+.side .info a {
+    text-decoration: none;
+}
+
+
+
+/* End my contact*/
 
 
 
