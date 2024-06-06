@@ -405,17 +405,14 @@ a.primary-button:hover {
 
 
 }
-.option {
-    display: flex;
-    
 
-}
 .portfolio-container {
     display: grid;
     justify-items: center;
     align-items: center;
  }
 .option {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
